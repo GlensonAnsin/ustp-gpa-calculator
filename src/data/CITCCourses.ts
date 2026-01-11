@@ -278,6 +278,12 @@ export const CITCCourses = {
             units: 2,
           },
         ],
+        firstYearMidYear: [
+          {
+            subject: "In-Campus Immersion",
+            units: 2,
+          },
+        ],
         secondYearFirstSem: [
           {
             subject: "The Contemporary World",
@@ -844,10 +850,10 @@ export const CITCCourses = {
             units: 3,
           },
         ],
-        thirdYearSummer: [
+        thirdYearMidYear: [
           {
             subject: "OJT (Practicum)",
-            units: 3,
+            units: 6,
           },
         ],
         fourthYearFirstSem: [

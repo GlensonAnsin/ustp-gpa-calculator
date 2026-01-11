@@ -1,0 +1,892 @@
+export const CITCCourses = {
+  college: "College of Information Technology and Computing",
+  programs: [
+    {
+      program: "Information Technology",
+      curriculum: {
+        firstYearFirstSem: [
+          {
+            subject: "Introduction to Computing",
+            units: 3,
+          },
+          {
+            subject: "Computer Programming 1",
+            units: 3,
+          },
+          {
+            subject: "Purposive Communication",
+            units: 3,
+          },
+          {
+            subject: "Readings in Philippine History",
+            units: 3,
+          },
+          {
+            subject: "The Contemporary World",
+            units: 3,
+          },
+          {
+            subject: "Mathematics in the Modern World",
+            units: 3,
+          },
+          {
+            subject: "Movement Enhancement",
+            units: 2,
+          },
+        ],
+        firstYearSecondSem: [
+          {
+            subject: "Computer Programming 2",
+            units: 3,
+          },
+          {
+            subject: "Data Structures and Algorithms",
+            units: 3,
+          },
+          {
+            subject: "Discrete Mathematics",
+            units: 3,
+          },
+          {
+            subject: "Art Appreciation",
+            units: 3,
+          },
+          {
+            subject: "Understanding the Self",
+            units: 3,
+          },
+          {
+            subject: "Science, Technology and Society",
+            units: 3,
+          },
+          {
+            subject: "Fitness Activity and Exercises",
+            units: 2,
+          },
+        ],
+        secondYearFirstSem: [
+          {
+            subject: "Intro to Human Computer Interaction",
+            units: 3,
+          },
+          {
+            subject: "Fundamentals of Database Systems",
+            units: 3,
+          },
+          {
+            subject: "Platform Technologies",
+            units: 3,
+          },
+          {
+            subject: "Object Oriented Programming",
+            units: 3,
+          },
+          {
+            subject: "Accounting Principles",
+            units: 3,
+          },
+          {
+            subject: "Environmental Science",
+            units: 3,
+          },
+          {
+            subject: "Physical Activity Towards Health and Fitness 1",
+            units: 2,
+          },
+        ],
+        secondYearSecondSem: [
+          {
+            subject: "Information Management",
+            units: 3,
+          },
+          {
+            subject: "Networking 1",
+            units: 3,
+          },
+          {
+            subject: "Web Systems and Technologies",
+            units: 3,
+          },
+          {
+            subject: "Systems Integration and Architecture",
+            units: 3,
+          },
+          {
+            subject: "Ethics",
+            units: 3,
+          },
+          {
+            subject: "Life and Works of Rizal",
+            units: 3,
+          },
+          {
+            subject: "Physical Activity Towards Health and Fitness 2",
+            units: 2,
+          },
+        ],
+        thirdYearFirstSem: [
+          {
+            subject: "Information Assurance and Security",
+            units: 3,
+          },
+          {
+            subject: "Networking 2",
+            units: 3,
+          },
+          {
+            subject: "Mobile Programming",
+            units: 3,
+          },
+          {
+            subject: "Software Engineering",
+            units: 3,
+          },
+          {
+            subject: "IT Elective 1",
+            units: 3,
+          },
+          {
+            subject: "Technopreneurship",
+            units: 3,
+          },
+        ],
+        thirdYearSecondSem: [
+          {
+            subject: "CAPSTONE Project and Research 1",
+            units: 3,
+          },
+          {
+            subject: "Integrative Programming and Technologies",
+            units: 3,
+          },
+          {
+            subject: "Applications Development and Emerging Technologies",
+            units: 3,
+          },
+          {
+            subject: "Quantitative Methods",
+            units: 3,
+          },
+          {
+            subject: "IT Elective 2",
+            units: 3,
+          },
+          {
+            subject: "Philippine Indigenous Communities and Peace Education",
+            units: 3,
+          },
+          {
+            
+            subject: "Foreign Language",
+            units: 3,
+          },
+        ],
+        fourthYearFirstSem: [
+          {
+            subject: "CAPSTONE Project and Research 2",
+            units: 3,
+          },
+          {
+            subject: "System Administration and Maintenance",
+            units: 3,
+          },
+          {
+            subject: "Social and Professional Issues",
+            units: 3,
+          },
+          {
+            subject: "IT Elective 3",
+            units: 3,
+          },
+          {
+            subject: "IT Elective 4",
+            units: 3,
+          },
+          {
+            subject: "Gender and Society",
+            units: 3,
+          },
+        ],
+        fourthYearSecondSem: [
+          {
+            subject: "PRACTICUM (486 hrs)",
+            units: 6,
+          },
+        ],
+      },
+    },
+    {
+      program: "Technology Communication Management",
+      curriculum: {
+        firstYearFirstSem: [
+          {
+            subject: "Ethics",
+            units: 3,
+          },
+          {
+            subject: "Lapel Communication",
+            units: 3,
+          },
+          {
+            subject: "Foreign Language",
+            units: 3,
+          },
+          {
+            subject: "Introduction of Computing",
+            units: 3,
+          },
+          {
+            subject: "Movement Enhancement",
+            units: 2,
+          },
+          {
+            subject: "Art Appreciation",
+            units: 3,
+          },
+        ],
+        firstYearSecondSem: [
+          {
+            subject: "Readings in Philippine History",
+            units: 3,
+          },
+          {
+            subject: "Mathematics in the Modern World",
+            units: 3,
+          },
+          {
+            subject: "Science, Technology and Society",
+            units: 3,
+          },
+          {
+            subject: "Introduction to Technology Communication Management",
+            units: 3,
+          },
+          {
+            subject: "Principles of Management",
+            units: 2,
+          },
+          {
+            subject: "Understanding the Self",
+            units: 3,
+          },
+          {
+            subject: "Purposive Communication",
+            units: 3,
+          },
+          {
+            subject: "Fitness Activity and Exercises",
+            units: 2,
+          },
+        ],
+        secondYearFirstSem: [
+          {
+            subject: "The Contemporary World",
+            units: 3,
+          },
+          {
+            subject: "Foreign Language 2",
+            units: 3,
+          },
+          {
+            subject: "Human Computer Interface",
+            units: 3,
+          },
+          {
+            subject: "Personnel Management",
+            units: 3,
+          },
+          {
+            subject: "Learning Academic and Professional English Language",
+            units: 3,
+          },
+          {  
+            subject: "Physical Activity Towards Health and Fitness 1",
+            units: 2,
+          },
+        ],
+        secondYearSecondSem: [
+          {
+            subject: "Interpersonal Communication with Human Behavior in the Organization",
+            units: 3,
+          },
+          {
+            subject: "Content Writing 1",
+            units: 3,
+          },
+          {
+            subject: "Human Computer Interface",
+            units: 3,
+          },
+          {
+            subject: "Theories of Communication",
+            units: 3,
+          },
+          {
+            subject: "Learning Academic and Professional English Language",
+            units: 3,
+          },
+          {
+            subject: "ELECTIVE 1",
+            units: 3,
+          },
+          {
+            subject: "Life and Works of Rizal",
+            units: 3,
+          },
+          {  
+            subject: "Physical Activity Towards Health and Fitness 2",
+            units: 2,
+          },
+        ],
+        thirdYearFirstSem: [
+          {
+            subject: "Elective 1",
+            units: 3,
+          },
+          {
+            subject: "Digital Activism",
+            units: 3,
+          },
+          {
+            subject: "Podcasting: Principles & Practices",
+            units: 3,
+          },
+          {
+            subject: "Content Writing 2",
+            units: 3,
+          },
+          {
+            subject: "Communication Management",
+            units: 3,
+          },
+          {
+            subject: "Professional Presentation",
+            units: 3,
+          },
+          {
+            subject: "Elective 2",
+            units: 3,
+          },
+          {
+            subject: "Reading Visual Art",
+            units: 3,
+          },
+        ],
+        thirdYearSecondSem: [
+          {
+            subject: "Technopreneurship",
+            units: 3,
+          },
+          {
+            subject: "Project Management",
+            units: 3,
+          },
+          {
+            subject: "Intercultural Communication",
+            units: 3,
+          },
+          {
+            subject: "Media Laws and Ethics",
+            units: 3,
+          },
+          {
+            subject: "Thesis 1",
+            units: 3,
+          },
+          {
+            subject: "Elective 3",
+            units: 3,
+          },
+          {
+            subject: "Fundamentals of Web Design",
+            units: 3,
+          },
+          {
+            subject: "Gender and Society",
+            units: 3,
+          },
+          {
+            subject: "Philippine Indigenous Communities and Peace Education",
+            units: 3,
+          },
+        ],
+        fourthYearFirstSem: [
+          {
+            subject: "Communication & Social Media",
+            units: 3,
+          },
+          {
+            subject: "Elective 4",
+            units: 3,
+          },
+          {
+            subject: "Thesis 2",
+            units: 6,
+          },
+        ],
+        fourthYearSecondSem: [
+          {
+            subject: "Internship",
+            units: 6,
+          },
+        ],
+      },
+    },
+    {
+      program: "Data Science",
+      curriculum: {
+        firstYearFirstSem: [
+          {
+            subject: "Introduction to Computer Science",
+            units: 3,
+          },
+          {
+            subject: "Computer Programming",
+            units: 3,
+          },
+          {
+            subject: "Mathematics in the Modern World",
+            units: 3,
+          },
+          {
+            subject: "Purposive Communication",
+            units: 3,
+          },
+          {
+            subject: "Life and Works of Rizal",
+            units: 3,
+          },
+          {
+            subject: "Readings in Philippine History",
+            units: 3,
+          },
+          {
+            subject: "Movement Enhancement",
+            units: 2,
+          },
+        ],
+        firstYearSecondSem: [
+          {
+            subject: "Introduction to Data Science",
+            units: 3,
+          },
+          {
+            subject: "Introduction to Statistical Methods",
+            units: 3,
+          },
+          {
+            subject: "Data Structures and Algorithms",
+            units: 3,
+          },
+          {
+            subject: "Linear Algebra",
+            units: 3,
+          },
+          {
+            subject: "Art Appreciation",
+            units: 3,
+          },
+          {
+            subject: "Understanding the Self",
+            units: 3,
+          },
+          {
+            subject: "Fitness Activity and Exercises",
+            units: 2,
+          },
+        ],
+        secondYearFirstSem: [
+          {
+            subject: "Linear and Nonlinear Models",
+            units: 3,
+          },
+          {
+            subject: "Object-Oriented Programming",
+            units: 3,
+          },
+          {
+            subject: "Intro to Human Computer Interaction",
+            units: 3,
+          },
+          {
+            subject: "Calculus 1",
+            units: 3,
+          },
+          {
+            subject: "Science, Technology and Society",
+            units: 3,
+          },
+          {
+            subject: "Ethics",
+            units: 3,
+          },
+          {
+            subject: "Physical Activity Towards Health and Fitness 1",
+            units: 2,
+          },
+        ],
+        secondYearSecondSem: [
+          {
+            subject: "Data Visualization and Storytelling",
+            units: 3,
+          },
+          {
+            subject: "Theory of Databases",
+            units: 3,
+          },
+          {
+            subject: "Computer Networking",
+            units: 3,
+          },
+          {
+            subject: "Optimization Theory",
+            units: 3,
+          },
+          {
+            subject: "Calculus 2",
+            units: 3,
+          },
+          {
+            subject: "The Contemporary World",
+            units: 3,
+          },
+          {
+            subject: "Physical Activity Towards Health and Fitness 2",
+            units: 2,
+          },
+        ],
+        thirdYearFirstSem: [
+          {
+            subject: "Exploratory Data Analysis",
+            units: 3,
+          },
+          {
+            subject: "Data Mining and Applications",
+            units: 3,
+          },
+          {
+            subject: "Advanced Database Management System",
+            units: 3,
+          },
+          {
+            subject: "DS Elective 1",
+            units: 3,
+          },
+          {
+            subject: "DS Elective 2",
+            units: 3,
+          },
+          {
+            subject: "Environmental Science",
+            units: 3,
+          },
+          {
+            subject: "Gender and Society",
+            units: 3,
+          },
+        ],
+        thirdYearSecondSem: [
+          {
+            subject: "Computational Statistics",
+            units: 3,
+          },
+          {
+            subject: "Machine Learning",
+            units: 3,
+          },
+          {
+            subject: "Cloud Computing",
+            units: 3,
+          },
+          {
+            subject: "DS Elective 3",
+            units: 3,
+          },
+          {
+            subject: "Capstone Project 1",
+            units: 3,
+          },
+          {
+            subject: "Technopreneurship",
+            units: 3,
+          },
+          {
+            subject: "Philippine Indigenous Communities and Peace Education",
+            units: 3,
+          },
+        ],
+        fourthYearFirstSem: [
+          {
+            subject: "Predictive Analytics",
+            units: 3,
+          },
+          {
+            subject: "Time Series Analysis and Stochastic Processes",
+            units: 3,
+          },
+          {
+            subject: "DS Elective 4",
+            units: 3,
+          },
+          {
+            subject: "Data Science Capstone 2",
+            units: 6,
+          },
+          {
+            subject: "Foreign Language",
+            units: 3,
+          },
+        ],
+        fourthYearSecondSem: [
+          {
+            subject: "On the Job Training (Data Science Practice)",
+            units: 6,
+          },
+        ],
+      },
+    },
+    {
+      program: "Computer Science",
+      curriculum: {
+        firstYearFirstSem: [
+          {
+            subject: "Mathematics in Modern World",
+            units: 3,
+          },
+          {
+            subject: "Purposive Communication",
+            units: 3,
+          },
+          {
+            subject: "The Contemporary World",
+            units: 3,
+          },
+          {
+            subject: "Readings in Philippine History",
+            units: 3,
+          },
+          {
+            subject: "Introduction to Computing",
+            units: 3,
+          },
+          {
+            subject: "Computer Programming 1",
+            units: 3,
+          },
+          {
+            subject: "Movement Enhancement",
+            units: 2,
+          },
+        ],
+        firstYearSecondSem: [
+          {
+            subject: "Art Appreciation",
+            units: 3,
+          },
+          {
+            subject: "Understanding the Self",
+            units: 3,
+          },
+          {
+            subject: "Science, Technology, and Society",
+            units: 3,
+          },
+          {
+            subject: "Fitness Activity and Exercises",
+            units: 2,
+          },
+          {
+            subject: "Linear Algebra for Computer Science",
+            units: 3,
+          },
+          {
+            subject: "Computer Programming 2",
+            units: 3,
+          },
+          {
+            subject: "Physics for Computer Science (Basic Electronics)",
+            units: 3,
+          },
+        ],
+        secondYearFirstSem: [
+          {
+            subject: "Environmental Science",
+            units: 3,
+          },
+          {
+            subject: "Physical Activity Towards Health and Fitness 1",
+            units: 2,
+          },
+          {
+            subject: "Life and Works of Rizal",
+            units: 3,
+          },
+          {
+            subject: "Discrete Structures 1",
+            units: 3,
+          },
+          {
+            subject: "Human Computer Interaction",
+            units: 3,
+          },
+          {
+            subject: "Data Structures and Algorithms (Algo 1)",
+            units: 3,
+          },
+          {
+            subject: "Fundamentals of Database Systems",
+            units: 3,
+          },
+          {
+            subject: "Statistics for Computer Science",
+            units: 3,
+          },
+        ],
+        secondYearSecondSem: [
+          {
+            subject: "Ethics",
+            units: 3,
+          },
+          {
+            subject: "Physical Activity Toward Health and Fitness 2",
+            units: 2,
+          },
+          {
+            subject: "Calculus for Computer Science",
+            units: 3,
+          },
+          {
+            subject: "Algorithms and Complexity (Algo 2)",
+            units: 3,
+          },
+          {
+            subject: "Computer Architecture and Organization",
+            units: 3,
+          },
+          {
+            subject: "Discrete Structures 2",
+            units: 3,
+          },
+          {
+            subject: "Applications Development and Emerging Technologies",
+            units: 3,
+          },
+          {
+            subject: "Object-Oriented Programming",
+            units: 3,
+          },
+        ],
+        thirdYearFirstSem: [
+          {
+            subject: "Gender and Society",
+            units: 3,
+          },
+          {
+            subject: "Automata Theory and Formal Languages",
+            units: 3,
+          },
+          {
+            subject: "Introduction to Artificial Intelligence",
+            units: 3,
+          },
+          {
+            subject: "Networks and Communications",
+            units: 3,
+          },
+          {
+            subject: "Operating Systems",
+            units: 3,
+          },
+          {
+            subject: "Principles of Programming Languages",
+            units: 3,
+          },
+          {
+            subject: "Information Management",
+            units: 3,
+          },
+          {
+            subject: "Software Engineering",
+            units: 3,
+          },
+        ],
+        thirdYearSecondSem: [
+          {
+            subject: "Philippine Indigenous Communities and Peace Education",
+            units: 3,
+          },
+          {
+            subject: "Information Assurance and Security",
+            units: 3,
+          },
+          {
+            subject: "Technopreneurship",
+            units: 3,
+          },
+          {
+            subject: "Parallel and Distributed Computing",
+            units: 3,
+          },
+          {
+            subject: "Machine Learning",
+            units: 3,
+          },
+          {
+            subject: "Research Methods",
+            units: 3,
+          },
+          {
+            subject: "Software Implementation and Management",
+            units: 3,
+          },
+          {
+            subject: "Social Issues and Professional Practice",
+            units: 3,
+          },
+        ],
+        thirdYearSummer: [
+          {
+            subject: "OJT (Practicum)",
+            units: 3,
+          },
+        ],
+        fourthYearFirstSem: [
+        {
+            subject: "CS Thesis Writing 1",
+            units: 3,
+          },
+          {
+            subject: "Foreign Language",
+            units: 3,
+          },
+          {
+            subject: "CS Elective 1",
+            units: 3,
+          },
+          {
+            subject: "CS Elective 2",
+            units: 3,
+          },
+          {
+            subject: "CS Elective 3",
+            units: 3,
+          },
+        ],
+        fourthYearSecondSem: [
+          {
+            subject: "CS Thesis Writing 2",
+            units: 3,
+          },
+          {
+            subject: "CS Elective 4",
+            units: 3,
+          },
+          {
+            subject: "CS Elective 5",
+            units: 3,
+          },
+        ],
+      },
+    },
+  ],
+}

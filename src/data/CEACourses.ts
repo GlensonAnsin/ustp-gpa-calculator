@@ -5,316 +5,97 @@ export const CEACourses = {
       program: "Architecture",
       curriculum: {
         firstYearFirstSem: [
-          {
-            subject: "Architectural Design 1 (Introduction to Design)",
-            units: 2,
-          },
-          {
-            subject: "Graphics 1 (Mechanical Drawing)",
-            units: 3,
-          },
-          {
-            subject: "Visual Technique 1 (Monochromatic and Freehand Drawing)",
-            units: 2,
-          },
-          {
-            subject: "History of Architecture 1",
-            units: 2,
-          },
-          {
-            subject: "Theory of Architecture 1",
-            units: 2,
-          },
-          {
-            subject: "Mathematics of the Modern World",
-            units: 3,
-          },
-          {
-            subject: "The Contemporary World",
-            units: 3,
-          },
-          {
-            subject: "Art Appreciation",
-            units: 3,
-          },
-          {
-            subject: "Movement Enhancement",
-            units: 2,
-          },
+          { subject: "Architectural Design 1 (Introduction to Design)", units: 2 },
+          { subject: "Graphics 1 (Mechanical Drawing)", units: 3 },
+          { subject: "Visual Technique 1 (Monochromatic and Freehand Drawing)", units: 2 },
+          { subject: "History of Architecture 1", units: 2 },
+          { subject: "Theory of Architecture 1", units: 2 },
+          { subject: "Mathematics of the Modern World", units: 3 },
+          { subject: "The Contemporary World", units: 3 },
+          { subject: "Art Appreciation", units: 3 },
+          { subject: "Movement Enhancement", units: 2 },
         ],
         firstYearSecondSem: [
-          {
-            subject: "Architectural Design 2 (Creative Design Fundamentals)",
-            units: 2,
-          },
-          {
-            subject: "Graphics 2 (Perspectives, Shades & Shadows)",
-            units: 3,
-          },
-          {
-            subject: "Visual Technique 2 (Color Rendering & Still life)",
-            units: 2,
-          },
-          {
-            subject: "History of Architecture 2",
-            units: 2,
-          },
-          {
-            subject: "Theory of Architecture 2",
-            units: 2,
-          },
-          {
-            subject: "Building Technology 1 (Materials of Building Construction)",
-            units: 3,
-          },
-          {
-            subject: "Solid Mensuration",
-            units: 3,
-          },
-          {
-            subject: "Ethics",
-            units: 3,
-          },
-          {
-            subject: "Fitness Activity and Exercises",
-            units: 2,
-          },
+          { subject: "Architectural Design 2 (Creative Design Fundamentals)", units: 2 },
+          { subject: "Graphics 2 (Perspectives, Shades & Shadows)", units: 3 },
+          { subject: "Visual Technique 2 (Color Rendering & Still life)", units: 2 },
+          { subject: "History of Architecture 2", units: 2 },
+          { subject: "Theory of Architecture 2", units: 2 },
+          { subject: "Building Technology 1 (Materials of Building Construction)", units: 3 },
+          { subject: "Solid Mensuration", units: 3 },
+          { subject: "Ethics", units: 3 },
+          { subject: "Fitness Activity and Exercises", units: 2 },
         ],
         secondYearFirstSem: [
-          {
-            subject: "Architectural Design 3 (Creative Design Fundamentals)",
-            units: 3,
-          },
-          {
-            subject: "Visual Technique 3 (Multi-Media)",
-            units: 2,
-          },
-          {
-            subject: "History of Architecture 3",
-            units: 2,
-          },
-          {
-            subject: "Building Technology 2 (Wood & Masonry Construction)",
-            units: 3,
-          },
-          {
-            subject: "Differential & Integral Calculus",
-            units: 3,
-          },
-          {
-            subject: "Plane Surveying",
-            units: 3,
-          },
-          {
-            subject: "Readings in Philippine History",
-            units: 3,
-          },
-          {
-            subject: "Panitikan",
-            units: 3,
-          },
-          {
-            subject: "Physical Activity Towards Health and Fitness 1",
-            units: 2,
-          },
+          { subject: "Architectural Design 3 (Creative Design Fundamentals)", units: 3 },
+          { subject: "Visual Technique 3 (Multi-Media)", units: 2 },
+          { subject: "History of Architecture 3", units: 2 },
+          { subject: "Building Technology 2 (Wood & Masonry Construction)", units: 3 },
+          { subject: "Differential & Integral Calculus", units: 3 },
+          { subject: "Plane Surveying", units: 3 },
+          { subject: "Readings in Philippine History", units: 3 },
+          { subject: "Panitikan", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 1", units: 2 },
         ],
         secondYearSecondSem: [
-          {
-            subject: "Architectural Design 4 (Space Planning 1)",
-            units: 3,
-          },
-          {
-            subject: "History of Architecture 4",
-            units: 2,
-          },
-          {
-            subject: "Building Technology 3 (Concrete and Steel Construction)",
-            units: 3,
-          },
-          {
-            subject: "Building Utilities 1 (Plumbing and Sanitary System)",
-            units: 3,
-          },
-          {
-            subject: "Basic CADD",
-            units: 2,
-          },
-          {
-            subject: "Statics of Rigid Bodies",
-            units: 3,
-          },
-          {
-            subject: "Purposive Communication",
-            units: 2,
-          },
-          {
-            subject: "Understanding the self",
-            units: 3,
-          },
-          {
-            subject: "Physical Activity Towards Health and Fitness 2",
-            units: 2,
-          },
+          { subject: "Architectural Design 4 (Space Planning 1)", units: 3 },
+          { subject: "History of Architecture 4", units: 2 },
+          { subject: "Building Technology 3 (Concrete and Steel Construction)", units: 3 },
+          { subject: "Building Utilities 1 (Plumbing and Sanitary System)", units: 3 },
+          { subject: "Basic CADD", units: 2 },
+          { subject: "Statics of Rigid Bodies", units: 3 },
+          { subject: "Purposive Communication", units: 2 },
+          { subject: "Understanding the self", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 2", units: 2 },
         ],
         thirdYearFirstSem: [
-          {
-            subject: "Architectural Design 5 (Space Planning 2)",
-            units: 4,
-          },
-          {
-            subject: "Building Technology 4 (Estimate & Adv. Bldg. Const. Methods)",
-            units: 3,
-          },
-          {
-            subject: "Building Utilities 2 (Mechanical, Electrical and Electronic Systems)",
-            units: 3,
-          },
-          {
-            subject: "Planning 1 (Site Planning & Landscape)",
-            units: 3,
-          },
-          {
-            subject: "Professional Practice 1 (Building Laws)",
-            units: 3,
-          },
-          {
-            subject: "Advanced CADD/BIM",
-            units: 3,
-          },
-          {
-            subject: "Fundamentals of Deformable Bodies (Strength of Materials)",
-            units: 3,
-          },
+          { subject: "Architectural Design 5 (Space Planning 2)", units: 4 },
+          { subject: "Building Technology 4 (Estimate & Adv. Bldg. Const. Methods)", units: 3 },
+          { subject: "Building Utilities 2 (Mechanical, Electrical and Electronic Systems)", units: 3 },
+          { subject: "Planning 1 (Site Planning & Landscape)", units: 3 },
+          { subject: "Professional Practice 1 (Building Laws)", units: 3 },
+          { subject: "Advanced CADD/BIM", units: 3 },
+          { subject: "Fundamentals of Deformable Bodies (Strength of Materials)", units: 3 },
         ],
         thirdYearSecondSem: [
-          {
-            subject: "Architectural Design 6 (Site Development Planning & Landscaping)",
-            units: 4,
-          },
-          {
-            subject: "Building Technology 5 (Alternative Bldg.Construction Systems)",
-            units: 3,
-          },
-          {
-            subject: "Building Utilities 3 (Acoustics& Lighting Systems)",
-            units: 3,
-          },
-          {
-            subject: "Professional Practice 2 (Regular Services of Architect)",
-            units: 3,
-          },
-          {
-            subject: "Planning 2 (Fundamentals oUrban and Community Architecture)",
-            units: 3,
-          },
-          {
-            subject: "Interior Design (Architectura Interiors)",
-            units: 2,
-          },
-          {
-            subject: "Structural Theory 1 (Theory of Structures)",
-            units: 3,
-          },
+          { subject: "Architectural Design 6 (Site Development Planning & Landscaping)", units: 4 },
+          { subject: "Building Technology 5 (Alternative Bldg.Construction Systems)", units: 3 },
+          { subject: "Building Utilities 3 (Acoustics& Lighting Systems)", units: 3 },
+          { subject: "Professional Practice 2 (Regular Services of Architect)", units: 3 },
+          { subject: "Planning 2 (Fundamentals oUrban and Community Architecture)", units: 3 },
+          { subject: "Interior Design (Architectura Interiors)", units: 2 },
+          { subject: "Structural Theory 1 (Theory of Structures)", units: 3 },
         ],
         fourthYearFirstSem: [
-          {
-            subject: "Architectural Design 7 (Community Arch & Urban Century)",
-            units: 5,
-          },
-          {
-            subject: "Professional Practice 3 (Global Practice for the 21st Century)",
-            units: 3,
-          },
-          {
-            subject: "Plan 3: Introduction to Urban & Regional Planning",
-            units: 3,
-          },
-          {
-            subject: "Steel and Timber Design",
-            units: 3,
-          },
-          {
-            subject: "Climate Design (Tropical Design)",
-            units: 2,
-          },
-          {
-            subject: "Tours & Seminars",
-            units: 1,
-          },
-          {
-            subject: "Specialization 1 (Construction Management)",
-            units: 3,
-          },
-          {
-            subject: "Retorika",
-            units: 3,
-          },
+          { subject: "Architectural Design 7 (Community Arch & Urban Century)", units: 5 },
+          { subject: "Professional Practice 3 (Global Practice for the 21st Century)", units: 3 },
+          { subject: "Plan 3: Introduction to Urban & Regional Planning", units: 3 },
+          { subject: "Steel and Timber Design", units: 3 },
+          { subject: "Climate Design (Tropical Design)", units: 2 },
+          { subject: "Tours & Seminars", units: 1 },
+          { subject: "Specialization 1 (Construction Management)", units: 3 },
+          { subject: "Retorika", units: 3 },
         ],
         fourthYearSecondSem: [
-          {
-            subject: "Architectural Design 8 (Design OF Complex Structures)",
-            units: 5,
-          },
-          {
-            subject: "Socio-Cultural & Institutional aspect of Housing",
-            units: 3,
-          },
-          {
-            subject: "Reinforced Concrete Design (Architectural Structures)",
-            units: 4,
-          },
-          {
-            subject: "Research Methods for Architecture",
-            units: 3,
-          },
-          {
-            subject: "Technopreneurship",
-            units: 3,
-          },
-          {
-            subject: "Specialization 2 (Community Planning Development)",
-            units: 3,
-          },
+          { subject: "Architectural Design 8 (Design OF Complex Structures)", units: 5 },
+          { subject: "Socio-Cultural & Institutional aspect of Housing", units: 3 },
+          { subject: "Reinforced Concrete Design (Architectural Structures)", units: 4 },
+          { subject: "Research Methods for Architecture", units: 3 },
+          { subject: "Technopreneurship", units: 3 },
+          { subject: "Specialization 2 (Community Planning Development)", units: 3 },
         ],
         fifthYearFirstSem: [
-          {
-            subject: "Architectural Design 9 (Thesis Research Writing)",
-            units: 5,
-          },
-          {
-            subject: "Business Management & Application for Architecture 1",
-            units: 3,
-          },
-          {
-            subject: "Specialization 3 (Urban Design)",
-            units: 3,
-          },
-          {
-            subject: "Science, Technology and Society",
-            units: 3,
-          },
-          {
-            subject: "Life and Works of Rizal",
-            units: 3,
-          },
-          {
-            subject: "Gender and Society",
-            units: 3,
-          },
+          { subject: "Architectural Design 9 (Thesis Research Writing)", units: 5 },
+          { subject: "Business Management & Application for Architecture 1", units: 3 },
+          { subject: "Specialization 3 (Urban Design)", units: 3 },
+          { subject: "Science, Technology and Society", units: 3 },
+          { subject: "Life and Works of Rizal", units: 3 },
+          { subject: "Gender and Society", units: 3 },
         ],
         fifthYearSecondSem: [
-          {
-            subject: "Architectural Design 10 (Thesis Research Application)",
-            units: 5,
-          },
-          {
-            subject: "Business Management & Application for Architecture 2",
-            units: 3,
-          },
-          {
-            subject: "Foreign Language",
-            units: 3,
-          },
+          { subject: "Architectural Design 10 (Thesis Research Application)", units: 5 },
+          { subject: "Business Management & Application for Architecture 2", units: 3 },
+          { subject: "Foreign Language", units: 3 },
         ],
       },
     },
@@ -322,268 +103,85 @@ export const CEACourses = {
       program: "Civil Engineering",
       curriculum: {
         firstYearFirstSem: [
-          {
-            subject: "Civil Engineering Orientation",
-            units: 2,
-          },
-          {
-            subject: "Chemistry for Engineers",
-            units: 4,
-          },
-          {
-            subject: "Art Appreciation",
-            units: 3,
-          },
-          {
-            subject: "Engineering Drawing and Plans",
-            units: 1,
-          },
-          {
-            subject: "Mathematics in the Modern World",
-            units: 3,
-          },
-          {
-            subject: "Calculus 1",
-            units: 3,
-          },
-          {
-            subject: "The Contemporary World",
-            units: 3,
-          },
-          {
-            subject: "Movement Enhancement",
-            units: 2,
-          },
+          { subject: "Civil Engineering Orientation", units: 2 },
+          { subject: "Chemistry for Engineers", units: 4 },
+          { subject: "Art Appreciation", units: 3 },
+          { subject: "Engineering Drawing and Plans", units: 1 },
+          { subject: "Mathematics in the Modern World", units: 3 },
+          { subject: "Calculus 1", units: 3 },
+          { subject: "The Contemporary World", units: 3 },
+          { subject: "Movement Enhancement", units: 2 },
         ],
         firstYearSecondSem: [
-          {
-            subject: "Purposive Communication",
-            units: 3,
-          },
-          {
-            subject: "Computer Aided Drafting 1",
-            units: 2,
-          },
-          {
-            subject: "Computer Fundamentals and Programming",
-            units: 2,
-          },
-          {
-            subject: "Mathematics of Measurement",
-            units: 3,
-          },
-          {
-            subject: "Calculus 2",
-            units: 3,
-          },
-          {
-            subject: "Physics for Engineers",
-            units: 4,
-          },
-          {
-            subject: "Readings in Philippines History",
-            units: 3,
-          },
-          {
-            subject: "Fitness Activity and Exercises",
-            units: 2,
-          },
+          { subject: "Purposive Communication", units: 3 },
+          { subject: "Computer Aided Drafting 1", units: 2 },
+          { subject: "Computer Fundamentals and Programming", units: 2 },
+          { subject: "Mathematics of Measurement", units: 3 },
+          { subject: "Calculus 2", units: 3 },
+          { subject: "Physics for Engineers", units: 4 },
+          { subject: "Readings in Philippines History", units: 3 },
+          { subject: "Fitness Activity and Exercises", units: 2 },
         ],
         secondYearFirstSem: [
-          {
-            subject: "Fundamentals of Surveying",
-            units: 4,
-          },
-          {
-            subject: "Geology for Civil Engineers",
-            units: 2,
-          },
-          {
-            subject: "Statics of Rigid Bodies",
-            units: 3,
-          },
-          {
-            subject: "Differential Equations",
-            units: 3,
-          },
-          {
-            subject: "Engineering Economy",
-            units: 3,
-          },
-          {
-            subject: "Engineering Data Analysis",
-            units: 3,
-          },
-          {
-            subject: "Panitikan",
-            units: 3,
-          },
-          {
-            subject: "Physical Activity Towards Health and Fitness 1",
-            units: 2,
-          },
+          { subject: "Fundamentals of Surveying", units: 4 },
+          { subject: "Geology for Civil Engineers", units: 2 },
+          { subject: "Statics of Rigid Bodies", units: 3 },
+          { subject: "Differential Equations", units: 3 },
+          { subject: "Engineering Economy", units: 3 },
+          { subject: "Engineering Data Analysis", units: 3 },
+          { subject: "Panitikan", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 1", units: 2 },
         ],
         secondYearSecondSem: [
-          {
-            subject: "Engineering Utilities 1 (Basic Electrical Engg)",
-            units: 3,
-          },
-          {
-            subject: "Science, Technology, and Society",
-            units: 3,
-          },
-          {
-            subject: "Dynamics of Rigid Bodies",
-            units: 2,
-          },
-          {
-            subject: "Mechanics of Deformable Bodies",
-            units: 4,
-          },
-          {
-            subject: "Retorika",
-            units: 3,
-          },
-          {
-            subject: "Understanding the Self",
-            units: 3,
-          },
-          {
-            subject: "Physical Activity Towards Health and Fitness 2",
-            units: 2,
-          },
+          { subject: "Engineering Utilities 1 (Basic Electrical Engg)", units: 3 },
+          { subject: "Science, Technology, and Society", units: 3 },
+          { subject: "Dynamics of Rigid Bodies", units: 2 },
+          { subject: "Mechanics of Deformable Bodies", units: 4 },
+          { subject: "Retorika", units: 3 },
+          { subject: "Understanding the Self", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 2", units: 2 },
         ],
         secondYearMidYear: [
-          {
-            subject: "Construction Materials and Testing",
-            units: 3,
-          },
-          {
-            subject: "Numerical Solutions to CE Problems",
-            units: 3,
-          },
-          {
-            subject: "Life and Works of Rizal",
-            units: 3,
-          },
+          { subject: "Construction Materials and Testing", units: 3 },
+          { subject: "Numerical Solutions to CE Problems", units: 3 },
+          { subject: "Life and Works of Rizal", units: 3 },
         ],
         thirdYearFirstSem: [
-          {
-            subcject: "Engineering Management",
-            units: 2,
-          },
-          {
-            subcject: "Structural Theory",
-            units: 4,
-          },
-          {
-            subcject: "Building System Design",
-            units: 3,
-          },
-          {
-            subcject: "Engineering Utilities 2 (Basic M. E.)",
-            units: 3,
-          },
-          {
-            subcject: "Hydraulics",
-            units: 5,
-          },
-          {
-            subcject: "Geotechnical Engineering (Soil Mechanics)",
-            units: 4,
-          },
-          {
-            subcject: "Highway and Railroad Engineering",
-            units: 3,
-          },
+          { subject: "Engineering Management", units: 2 },
+          { subject: "Structural Theory", units: 4 },
+          { subject: "Building System Design", units: 3 },
+          { subject: "Engineering Utilities 2 (Basic M. E.)", units: 3 },
+          { subject: "Hydraulics", units: 5 },
+          { subject: "Geotechnical Engineering (Soil Mechanics)", units: 4 },
+          { subject: "Highway and Railroad Engineering", units: 3 },
         ],
         thirdYearSecondSem: [
-          {
-            subject: "Quantity Surveying",
-            units: 2,
-          },
-          {
-            subject: "Hydrology",
-            units: 2,
-          },
-          {
-            subject: "Ethics",
-            units: 3,
-          },
-          {
-            subject: "Principles of Steel Design",
-            units: 3,
-          },
-          {
-            subject: "Construction Methods and Project Management",
-            units: 4,
-          },
-          {
-            subject: "CE Project - I (Engineering Research Methods)",
-            units: 2,
-          },
-          {
-            subject: "Principles of Reinforced/Prestressed Concrete",
-            units: 4,
-          },
-          {
-            subject: "CE Laws, Contracts, Specifications and Ethics",
-            units: 2,
-          },
-          {
-            subject: "Foreign Language",
-            units: 3,
-          },
+          { subject: "Quantity Surveying", units: 2 },
+          { subject: "Hydrology", units: 2 },
+          { subject: "Ethics", units: 3 },
+          { subject: "Principles of Steel Design", units: 3 },
+          { subject: "Construction Methods and Project Management", units: 4 },
+          { subject: "CE Project - I (Engineering Research Methods)", units: 2 },
+          { subject: "Principles of Reinforced/Prestressed Concrete", units: 4 },
+          { subject: "CE Laws, Contracts, Specifications and Ethics", units: 2 },
+          { subject: "Foreign Language", units: 3 },
         ],
         thirdYearMidYear: [
-          {
-            subject: "ELECTIVE (COSH)",
-            units: 3,
-          },
-          {
-            subject: "Principles of Transportation Eng ́g",
-            units: 3,
-          },
-          {
-            subject: "Gender and Society",
-            units: 3,
-          },
+          { subject: "ELECTIVE (COSH)", units: 3 },
+          { subject: "Principles of Transportation Eng'g", units: 3 },
+          { subject: "Gender and Society", units: 3 },
         ],
         fourthYearFirstSem: [
-          {
-            subject: "Technopreneurship",
-            units: 3,
-          },
-          {
-            subject: "CE Project - II",
-            units: 2,
-          },
-          {
-            subject: "TE1 - Water Supply Planning and Development",
-            units: 3,
-          },
-          {
-            subject: "TE2 - Water Resources Engineering",
-            units: 3,
-          },
-          {
-            subject: "TE3 - Earthquake Engineering",
-            units: 4,
-          },
-          {
-            subject: "TE4 - Structural Design of Buildings",
-            units: 4,
-          },
-          {
-            subject: "TE5 - Foundation Engineering 2",
-            units: 4,
-          },
+          { subject: "Technopreneurship", units: 3 },
+          { subject: "CE Project - II", units: 2 },
+          { subject: "TE1 - Water Supply Planning and Development", units: 3 },
+          { subject: "TE2 - Water Resources Engineering", units: 3 },
+          { subject: "TE3 - Earthquake Engineering", units: 4 },
+          { subject: "TE4 - Structural Design of Buildings", units: 4 },
+          { subject: "TE5 - Foundation Engineering 2", units: 4 },
         ],
         fourthYearSecondSem: [
-          {
-            subject: "On the Job Training",
-            units: 3,
-          },
+          { subject: "On the Job Training", units: 3 },
         ],
       },
     },
@@ -591,312 +189,96 @@ export const CEACourses = {
       program: "Mechanical Engineering",
       curriculum: {
         firstYearFirstSem: [
-          {
-            subject: "Introduction to Mechanical Engineering",
-            units: 2,
-          },
-          {
-            subject: "Calculus 1",
-            units: 3,
-          },
-          {
-            subject: "Chemistry for Engineers",
-            units: 4,
-          },
-          {
-            subject: "Engineering Drawing",
-            units: 1,
-          },
-          {
-            subject: "Mathematics in the Modern World",
-            units: 3,
-          },
-          {
-            subject: "The Contemporary World",
-            units: 3,
-          },
-          {
-            subject: "Arts Appreciation",
-            units: 3,
-          },
-          {
-            subject: "Movement Enhancement",
-            units: 2,
-          },
+          { subject: "Introduction to Mechanical Engineering", units: 2 },
+          { subject: "Calculus 1", units: 3 },
+          { subject: "Chemistry for Engineers", units: 4 },
+          { subject: "Engineering Drawing", units: 1 },
+          { subject: "Mathematics in the Modern World", units: 3 },
+          { subject: "The Contemporary World", units: 3 },
+          { subject: "Arts Appreciation", units: 3 },
+          { subject: "Movement Enhancement", units: 2 },
         ],
         firstYearSecondSem: [
-          {
-            subject: "Workshop Theory and Practice",
-            units: 1,
-          },
-          {
-            subject: "Calculus 2",
-            units: 3,
-          },
-          {
-            subject: "Physics for Engineers",
-            units: 4,
-          },
-          {
-            subject: "Mathematics of Measurement",
-            units: 3,
-          },
-          {
-            subject: "Computer-Aided Drafting",
-            units: 1,
-          },
-          {
-            subject: "Ethics",
-            units: 3,
-          },
-          {
-            subject: "Purposive Communication",
-            units: 3,
-          },
-          {
-            subject: "Science Technology and Society",
-            units: 3,
-          },
-          {
-            subject: "Fitness Activity and Exercise",
-            units: 2,
-          },
+          { subject: "Workshop Theory and Practice", units: 1 },
+          { subject: "Calculus 2", units: 3 },
+          { subject: "Physics for Engineers", units: 4 },
+          { subject: "Mathematics of Measurement", units: 3 },
+          { subject: "Computer-Aided Drafting", units: 1 },
+          { subject: "Ethics", units: 3 },
+          { subject: "Purposive Communication", units: 3 },
+          { subject: "Science Technology and Society", units: 3 },
+          { subject: "Fitness Activity and Exercise", units: 2 },
         ],
         secondYearFirstSem: [
-          {
-            subject: "Thermodynamics 1",
-            units: 3,
-          },
-          {
-            subject: "Machine Shop Theory",
-            units: 2,
-          },
-          {
-            subject: "Differential Equations",
-            units: 3,
-          },
-          {
-            subject: "Statics of Rigid Bodies",
-            units: 3,
-          },
-          {
-            subject: "Basic Electrical Engineering",
-            units: 3,
-          },
-          {
-            subject: "Engineering Data Analysis",
-            units: 3,
-          },
-          {
-            subject: "Readings in the Philippine History",
-            units: 3,
-          },
-          {
-            subject: "Panitikan",
-            units: 3,
-          },
-          {
-            subject: "Physical Activity Towards Health and Fitness 1",
-            units: 2,
-          },
+          { subject: "Thermodynamics 1", units: 3 },
+          { subject: "Machine Shop Theory", units: 2 },
+          { subject: "Differential Equations", units: 3 },
+          { subject: "Statics of Rigid Bodies", units: 3 },
+          { subject: "Basic Electrical Engineering", units: 3 },
+          { subject: "Engineering Data Analysis", units: 3 },
+          { subject: "Readings in the Philippine History", units: 3 },
+          { subject: "Panitikan", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 1", units: 2 },
         ],
         secondYearSecondSem: [
-          {
-            subject: "Fluid Mechanics",
-            units: 3,
-          },
-          {
-            subject: "Thermodynamics 2",
-            units: 3,
-          },
-          {
-            subject: "Advanced Mathematics for ME",
-            units: 3,
-          },
-          {
-            subject: "Materials Science & Engineering for ME",
-            units: 3,
-          },
-          {
-            subject: "Dynamics of Rigid Bodies",
-            units: 2,
-          },
-          {
-            subject: "AC and DC Machinery",
-            units: 3,
-          },
-          {
-            subject: "Understanding the Self",
-            units: 3,
-          },
-          {
-            subject: "Retorika",
-            units: 3,
-          },
-          {
-            subject: "Physical Activity Towards Health and Fitness 2",
-            units: 2,
-          },
+          { subject: "Fluid Mechanics", units: 3 },
+          { subject: "Thermodynamics 2", units: 3 },
+          { subject: "Advanced Mathematics for ME", units: 3 },
+          { subject: "Materials Science & Engineering for ME", units: 3 },
+          { subject: "Dynamics of Rigid Bodies", units: 2 },
+          { subject: "AC and DC Machinery", units: 3 },
+          { subject: "Understanding the Self", units: 3 },
+          { subject: "Retorika", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 2", units: 2 },
         ],
         secondYearMidYear: [
-          {
-            subject: "Engineering Economics",
-            units: 3,
-          },
-          {
-            subject: "Machine Elements 1",
-            units: 2,
-          },
-          {
-            subject: "Heat Transfer",
-            units: 3,
-          },
+          { subject: "Engineering Economics", units: 3 },
+          { subject: "Machine Elements 1", units: 2 },
+          { subject: "Heat Transfer", units: 3 },
         ],
         thirdYearFirstSem: [
-          {
-            subject: "Life and Works of Rizal",
-            units: 3,
-          },
-          {
-            subject: "Combustion Engineering",
-            units: 2,
-          },
-          {
-            subject: "Introduction to Energy Engineering",
-            units: 2,
-          },
-          {
-            subject: "Numerical Methods for ME",
-            units: 2,
-          },
-          {
-            subject: "Fundamentals of Deformable Bodies",
-            units: 3,
-          },
-          {
-            subject: "Methods of Research for M.E.",
-            units: 2,
-          },
-          {
-            subject: "Machine Elements 2",
-            units: 2,
-          },
-          {
-            subject: "ME Laboratory 1",
-            units: 1,
-          },
-          {
-            subject: "Basic Occupational Safety and Health",
-            units: 3,
-          },
-          {
-            subject: "Fluid Machineries",
-            units: 3,
-          },
-          {
-            subject: "Basic Electronics",
-            units: 3,
-          },
-          {
-            subject: "Computer Fundamentals and Programming",
-            units: 2,
-          },
+          { subject: "Life and Works of Rizal", units: 3 },
+          { subject: "Combustion Engineering", units: 2 },
+          { subject: "Introduction to Energy Engineering", units: 2 },
+          { subject: "Numerical Methods for ME", units: 2 },
+          { subject: "Fundamentals of Deformable Bodies", units: 3 },
+          { subject: "Methods of Research for M.E.", units: 2 },
+          { subject: "Machine Elements 2", units: 2 },
+          { subject: "ME Laboratory 1", units: 1 },
+          { subject: "Basic Occupational Safety and Health", units: 3 },
+          { subject: "Fluid Machineries", units: 3 },
+          { subject: "Basic Electronics", units: 3 },
+          { subject: "Computer Fundamentals and Programming", units: 2 },
         ],
         thirdYearSecondSem: [
-          {
-            subject: "Refrigeration Systems",
-            units: 3,
-          },
-          {
-            subject: "Mechanical Engineering Elective 1",
-            units: 2,
-          },
-          {
-            subject: "Machine Design 1",
-            units: 4,
-          },
-          {
-            subject: "ME Project Study 1",
-            units: 1,
-          },
-          {
-            subject: "ME Laboratory 2",
-            units: 2,
-          },
-          {
-            subject: "Power Plant Engineering with Renewable Energy",
-            units: 4,
-          },
-          {
-            subject: "Technopreneurship 101",
-            units: 3,
-          },
-          {
-            subject: "Control Engineering",
-            units: 3,
-          },
+          { subject: "Refrigeration Systems", units: 3 },
+          { subject: "Mechanical Engineering Elective 1", units: 2 },
+          { subject: "Machine Design 1", units: 4 },
+          { subject: "ME Project Study 1", units: 1 },
+          { subject: "ME Laboratory 2", units: 2 },
+          { subject: "Power Plant Engineering with Renewable Energy", units: 4 },
+          { subject: "Technopreneurship 101", units: 3 },
+          { subject: "Control Engineering", units: 3 },
         ],
         thirdYearMidYear: [
-          {
-            subject: "ME Laws, Ethics, Contracts, Codes & Standards",
-            units: 2,
-          },
-          {
-            subject: "Gender and Society",
-            units: 3,
-          },
-          {
-            subject: "Engineering Management",
-            units: 2,
-          },
-          {
-            subject: "Mechanical Engineering Elective 2",
-            units: 2,
-          },
+          { subject: "ME Laws, Ethics, Contracts, Codes & Standards", units: 2 },
+          { subject: "Gender and Society", units: 3 },
+          { subject: "Engineering Management", units: 2 },
+          { subject: "Mechanical Engineering Elective 2", units: 2 },
         ],
         fourthYearFirstSem: [
-          {
-            subject: "Air Conditioning & Ventilation Systems",
-            units: 3,
-          },
-          {
-            subject: "ME Project Study 2",
-            units: 1,
-          },
-          {
-            subject: "ME Laboratory 3",
-            units: 2,
-          },
-          {
-            subject: "Machine Design 2",
-            units: 4,
-          },
-          {
-            subject: "Manufacturing & Industrial Processes with Plant Visits",
-            units: 1,
-          },
-          {
-            subject: "Industrial Plant Engineering",
-            units: 4,
-          },
-          {
-            subject: "Mechanical Engineering Elective 3",
-            units: 2,
-          },
-          {
-            subject: "Computer Applications for ME",
-            units: 1,
-          },
-          {
-            subject: "Vibration Engineering",
-            units: 2,
-          },
+          { subject: "Air Conditioning & Ventilation Systems", units: 3 },
+          { subject: "ME Project Study 2", units: 1 },
+          { subject: "ME Laboratory 3", units: 2 },
+          { subject: "Machine Design 2", units: 4 },
+          { subject: "Manufacturing & Industrial Processes with Plant Visits", units: 1 },
+          { subject: "Industrial Plant Engineering", units: 4 },
+          { subject: "Mechanical Engineering Elective 3", units: 2 },
+          { subject: "Computer Applications for ME", units: 1 },
+          { subject: "Vibration Engineering", units: 2 },
         ],
         fourthYearSecondSem: [
-          {
-            subject: "On-the-Job Training",
-            units: 3,
-          },
+          { subject: "On-the-Job Training", units: 3 },
         ],
       },
     },
@@ -904,272 +286,83 @@ export const CEACourses = {
       program: "Computer Engineering",
       curriculum: {
         firstYearFirstSem: [
-          {
-            subject: "Calculus 1",
-            units: 3,
-          },
-          {
-            subject: "Chemistry for Engineers",
-            units: 4,
-          },
-          {
-            subject: "Computer Engineering as a Discipline",
-            units: 1,
-          },
-          {
-            subject: "Programming Logic and Design",
-            units: 2,
-          },
-          {
-            subject: "Life and Works of Rizal",
-            units: 3,
-          },
-          {
-            subject: "Understanding the Self",
-            units: 3,
-          },
-          {
-            subject: "Panitikan",
-            units: 3,
-          },
-          {
-            subject: "Movement Enhancement",
-            units: 2,
-          },
+          { subject: "Calculus 1", units: 3 },
+          { subject: "Chemistry for Engineers", units: 4 },
+          { subject: "Computer Engineering as a Discipline", units: 1 },
+          { subject: "Programming Logic and Design", units: 2 },
+          { subject: "Life and Works of Rizal", units: 3 },
+          { subject: "Understanding the Self", units: 3 },
+          { subject: "Panitikan", units: 3 },
+          { subject: "Movement Enhancement", units: 2 },
         ],
         firstYearSecondSem: [
-          {
-            subject: "Calculus 2",
-            units: 3,
-          },
-          {
-            subject: "Physics for Engineers",
-            units: 4,
-          },
-          {
-            subject: "Object Oriented Programming",
-            units: 2,
-          },
-          {
-            subject: "Engineering Data Analysis",
-            units: 3,
-          },
-          {
-            subject: "Discrete Mathematics",
-            units: 3,
-          },
-          {
-            subject: "Statistics for Engineering and Sciences (SES)",
-            units: 3,
-          },
-          {
-            subject: "Mathematics in the Modern World",
-            units: 3,
-          },
-          {
-            subject: "Fitness Activity and Exercises",
-            units: 2,
-          },
+          { subject: "Calculus 2", units: 3 },
+          { subject: "Physics for Engineers", units: 4 },
+          { subject: "Object Oriented Programming", units: 2 },
+          { subject: "Engineering Data Analysis", units: 3 },
+          { subject: "Discrete Mathematics", units: 3 },
+          { subject: "Statistics for Engineering and Sciences (SES)", units: 3 },
+          { subject: "Mathematics in the Modern World", units: 3 },
+          { subject: "Fitness Activity and Exercises", units: 2 },
         ],
         secondYearFirstSem: [
-          {
-            subject: "Differential Equations",
-            units: 3,
-          },
-          {
-            subject: "Data Structures and Algorithms Analysis",
-            units: 4,
-          },
-          {
-            subject: "Engineering Economics",
-            units: 3,
-          },
-          {
-            subject: "Fundamentals of Electrical Circuits",
-            units: 4,
-          },
-          {
-            subject: "Computer Aided Drafting",
-            units: 1,
-          },
-          {
-            subject: "Reading in Philippine History",
-            units: 3,
-          },
-          {
-            subject: "Retorika",
-            units: 3,
-          },
-          {
-            subject: "Art Appreciation",
-            units: 3,
-          },
-          {
-            subject: "Physical Activity Towards Health & Fitness 1",
-            units: 2,
-          },
+          { subject: "Differential Equations", units: 3 },
+          { subject: "Data Structures and Algorithms Analysis", units: 4 },
+          { subject: "Engineering Economics", units: 3 },
+          { subject: "Fundamentals of Electrical Circuits", units: 4 },
+          { subject: "Computer Aided Drafting", units: 1 },
+          { subject: "Reading in Philippine History", units: 3 },
+          { subject: "Retorika", units: 3 },
+          { subject: "Art Appreciation", units: 3 },
+          { subject: "Physical Activity Towards Health & Fitness 1", units: 2 },
         ],
         secondYearSecondSem: [
-          {
-            subject: "Advanced Engineering Math",
-            units: 3,
-          },
-          {
-            subject: "Project Management (System Design and Analysis)",
-            units: 4,
-          },
-          {
-            subject: "Fundamentals of Electronic Circuits",
-            units: 4,
-          },
-          {
-            subject: "Operating System",
-            units: 3,
-          },
-          {
-            subject: "Numerical Methods and Analysis",
-            units: 3,
-          },
-          {
-            subject: "Purposive Communication",
-            units: 3,
-          },
-          {
-            subject: "Ethics",
-            units: 3,
-          },
-          {
-            subject: "The Contemporary World",
-            units: 3,
-          },
-          {
-            subject: "Physical Activity Towards Health and Fitness 2",
-            units: 2,
-          },
+          { subject: "Advanced Engineering Math", units: 3 },
+          { subject: "Project Management (System Design and Analysis)", units: 4 },
+          { subject: "Fundamentals of Electronic Circuits", units: 4 },
+          { subject: "Operating System", units: 3 },
+          { subject: "Numerical Methods and Analysis", units: 3 },
+          { subject: "Purposive Communication", units: 3 },
+          { subject: "Ethics", units: 3 },
+          { subject: "The Contemporary World", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 2", units: 2 },
         ],
         thirdYearFirstSem: [
-          {
-            subject: "Logic Circuits and Design",
-            units: 4,
-          },
-          {
-            subject: "Software Design and Engineering",
-            units: 4,
-          },
-          {
-            subject: "Data and Digital Communication",
-            units: 3,
-          },
-          {
-            subject: "Introduction to HDL",
-            units: 1,
-          },
-          {
-            subject: "Feedback and Control System",
-            units: 3,
-          },
-          {
-            subject: "Fundamentals of Mixed Signals and Sensors",
-            units: 3,
-          },
-          {
-            subject: "Computer Engineering Drafting and Design",
-            units: 1,
-          },
-          {
-            subject: "Philippine Indigenous Communities and Peace Education",
-            units: 3,
-          },
-          {
-            subject: "CpE Elective Course 1",
-            units: 3,
-          },
+          { subject: "Logic Circuits and Design", units: 4 },
+          { subject: "Software Design and Engineering", units: 4 },
+          { subject: "Data and Digital Communication", units: 3 },
+          { subject: "Introduction to HDL", units: 1 },
+          { subject: "Feedback and Control System", units: 3 },
+          { subject: "Fundamentals of Mixed Signals and Sensors", units: 3 },
+          { subject: "Computer Engineering Drafting and Design", units: 1 },
+          { subject: "Philippine Indigenous Communities and Peace Education", units: 3 },
+          { subject: "CpE Elective Course 1", units: 3 },
         ],
         thirdYearSecondSem: [
-          {
-            subject: "Basic Occupational Health and Safety",
-            units: 3,
-          },
-          {
-            subject: "Computer Networks and Security",
-            units: 4,
-          },
-          {
-            subject: "Microprocessor",
-            units: 4,
-          },
-          {
-            subject: "Methods of Research",
-            units: 2,
-          },
-          {
-            subject: "CPE Laws and Professional Practice",
-            units: 2,
-          },
-          {
-            subject: "Technopreneurship",
-            units: 3,
-          },
-          {
-            subject: "Material Science and Engineering",
-            units: 3,
-          },
-          {
-            subject: "Gender and Society",
-            units: 3,
-          },
-          {
-            subject: "CpE Elective Course 2",
-            units: 3,
-          },
+          { subject: "Basic Occupational Health and Safety", units: 3 },
+          { subject: "Computer Networks and Security", units: 4 },
+          { subject: "Microprocessor", units: 4 },
+          { subject: "Methods of Research", units: 2 },
+          { subject: "CPE Laws and Professional Practice", units: 2 },
+          { subject: "Technopreneurship", units: 3 },
+          { subject: "Material Science and Engineering", units: 3 },
+          { subject: "Gender and Society", units: 3 },
+          { subject: "CpE Elective Course 2", units: 3 },
         ],
         fourthYearFirstSem: [
-          {
-            subject: "Engineering Management",
-            units: 2,
-          },
-          {
-            subject: "Embedded Systems",
-            units: 4,
-          },
-          {
-            subject: "Computer Architecture and Organization",
-            units: 4,
-          },
-          {
-            subject: "Emerging Technology in CPE",
-            units: 3,
-          },
-          {
-            subject: "CPE Practice and Design 1",
-            units: 1,
-          },
-          {
-            subject: "Digital Signal Processing",
-            units: 4,
-          },
-          {
-            subject: "Seminars and Fieldtrips",
-            units: 1,
-          },
-          {
-            subject: "Science, Technology, and Society",
-            units: 3,
-          },
-          {
-            subject: "CpE Elective Course 3",
-            units: 3,
-          },
+          { subject: "Engineering Management", units: 2 },
+          { subject: "Embedded Systems", units: 4 },
+          { subject: "Computer Architecture and Organization", units: 4 },
+          { subject: "Emerging Technology in CPE", units: 3 },
+          { subject: "CPE Practice and Design 1", units: 1 },
+          { subject: "Digital Signal Processing", units: 4 },
+          { subject: "Seminars and Fieldtrips", units: 1 },
+          { subject: "Science, Technology, and Society", units: 3 },
+          { subject: "CpE Elective Course 3", units: 3 },
         ],
         fourthYearSecondSem: [
-          {
-            subject: "CPE Practice and Design 2",
-            units: 2,
-          },
-          {
-            subject: "On The Job Training",
-            units: 3,
-          },
+          { subject: "CPE Practice and Design 2", units: 2 },
+          { subject: "On The Job Training", units: 3 },
         ],
       },
     },
@@ -1177,274 +370,262 @@ export const CEACourses = {
       program: "Geodetic Engineering",
       curriculum: {
         firstYearFirstSem: [
-          {
-            subject: "Computer Aided Drafting",
-            units: 2,
-          },
-          {
-            subject: "Art Appreciation",
-            units: 3,
-          },
-          {
-            subject: "Ethics",
-            units: 3,
-          },
-          {
-            subject: "Mathematics in the Modern World",
-            units: 3,
-          },
-          {
-            subject: "Calculus 1 (Differential Calculus)",
-            units: 3,
-          },
-          {
-            subject: "The Contemporary World",
-            units: 3,
-          },
-          {
-            subject: "Understanding the Self",
-            units: 3,
-          },
-          {
-            subject: "Purposive Communication",
-            units: 3,
-          },
-          {
-            subject: "Movement Enhancement",
-            units: 2,
-          },
+          { subject: "Computer Aided Drafting", units: 2 },
+          { subject: "Art Appreciation", units: 3 },
+          { subject: "Ethics", units: 3 },
+          { subject: "Mathematics in the Modern World", units: 3 },
+          { subject: "Calculus 1 (Differential Calculus)", units: 3 },
+          { subject: "The Contemporary World", units: 3 },
+          { subject: "Understanding the Self", units: 3 },
+          { subject: "Purposive Communication", units: 3 },
+          { subject: "Movement Enhancement", units: 2 },
         ],
         firstYearSecondSem: [
-          {
-            subject: "Advanced Information & Communication Technology",
-            units: 3,
-          },
-          {
-            subject: "Computer Fundamentals & Programming",
-            units: 3,
-          },
-          {
-            subject: "Mathematics of Measurement",
-            units: 3,
-          },
-          {
-            subject: "Calculus 2 (Integral Calculus)",
-            units: 3,
-          },
-          {
-            subject: "Physics for Engineers (Calculus Based)",
-            units: 4,
-          },
-          {
-            subject: "Fitness Activity and Exercises",
-            units: 2,
-          },
+          { subject: "Advanced Information & Communication Technology", units: 3 },
+          { subject: "Computer Fundamentals & Programming", units: 3 },
+          { subject: "Mathematics of Measurement", units: 3 },
+          { subject: "Calculus 2 (Integral Calculus)", units: 3 },
+          { subject: "Physics for Engineers (Calculus Based)", units: 4 },
+          { subject: "Fitness Activity and Exercises", units: 2 },
         ],
         secondYearFirstSem: [
-          {
-            subject: "General Surveying 1",
-            units: 3,
-          },
-          {
-            subject: "Introduction to the Laws on Private & Public Lands",
-            units: 2,
-          },
-          {
-            subject: "Cartography",
-            units: 3,
-          },
-          {
-            subject: "Electrical & Electronics Engg for Geodetic Engrs.",
-            units: 3,
-          },
-          {
-            subject: "Safety Management",
-            units: 1,
-          },
-          {
-            subject: "Engineering Mechanics",
-            units: 3,
-          },
-          {
-            subject: "Differential Equations",
-            units: 3,
-          },
-          {
-            subject: "Engineering Data Analysis",
-            units: 3,
-          },
-          {
-            subject: "Life and Works of Rizal",
-            units: 3,
-          },
-          {
-            subject: "Physical Activity Towards Health and Fitness 1",
-            units: 2,
-          },
+          { subject: "General Surveying 1", units: 3 },
+          { subject: "Introduction to the Laws on Private & Public Lands", units: 2 },
+          { subject: "Cartography", units: 3 },
+          { subject: "Electrical & Electronics Engg for Geodetic Engrs.", units: 3 },
+          { subject: "Safety Management", units: 1 },
+          { subject: "Engineering Mechanics", units: 3 },
+          { subject: "Differential Equations", units: 3 },
+          { subject: "Engineering Data Analysis", units: 3 },
+          { subject: "Life and Works of Rizal", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 1", units: 2 },
         ],
         secondYearSecondSem: [
-          {
-            subject: "General Surveying 2",
-            units: 4,
-          },
-          {
-            subject: "Theory of Errors & Adjustments",
-            units: 3,
-          },
-          {
-            subject: "Geodetic Computations & Adjustments",
-            units: 3,
-          },
-          {
-            subject: "Principles of Geology",
-            units: 3,
-          },
-          {
-            subject: "Public Land Laws & Laws on Natural Resources",
-            units: 3,
-          },
-          {
-            subject: "Science, Technology, and Society",
-            units: 3,
-          },
-          {
-            subject: "Readings in Philippine History",
-            units: 3,
-          },
-          {
-            subject: "The Entrepreneurial Mind",
-            units: 3,
-          },
-          {
-            subject: "Physical Activity Towards Health and Fitness 2",
-            units: 2,
-          },
+          { subject: "General Surveying 2", units: 4 },
+          { subject: "Theory of Errors & Adjustments", units: 3 },
+          { subject: "Geodetic Computations & Adjustments", units: 3 },
+          { subject: "Principles of Geology", units: 3 },
+          { subject: "Public Land Laws & Laws on Natural Resources", units: 3 },
+          { subject: "Science, Technology, and Society", units: 3 },
+          { subject: "Readings in Philippine History", units: 3 },
+          { subject: "The Entrepreneurial Mind", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 2", units: 2 },
         ],
         secondYearMidYear: [
-          {
-            subject: "Engineering Economics",
-            units: 3,
-          },
-          {
-            subject: "Environmental Science & Engineering",
-            units: 3,
-          },
-          {
-            subject: "Gender and Society",
-            units: 3,
-          },
+          { subject: "Engineering Economics", units: 3 },
+          { subject: "Environmental Science & Engineering", units: 3 },
+          { subject: "Gender and Society", units: 3 },
         ],
         thirdYearFirstSem: [
-          {
-            subject: "Geographic Information System",
-            units: 3,
-          },
-          {
-            subject: "Photogrammetry",
-            units: 4,
-          },
-          {
-            subject: "Engineering Surveys",
-            units: 4,
-          },
-          {
-            subject: "Geometric Geodesy",
-            units: 3,
-          },
-          {
-            subject: "Hydrographic Surveying",
-            units: 3,
-          },
-          {
-            subject: "Technopreneurship 101",
-            units: 3,
-          },
-          {
-            subject: "Methods of Research",
-            units: 1,
-          },
+          { subject: "Geographic Information System", units: 3 },
+          { subject: "Photogrammetry", units: 4 },
+          { subject: "Engineering Surveys", units: 4 },
+          { subject: "Geometric Geodesy", units: 3 },
+          { subject: "Hydrographic Surveying", units: 3 },
+          { subject: "Technopreneurship 101", units: 3 },
+          { subject: "Methods of Research", units: 1 },
         ],
         thirdYearSecondSem: [
-          {
-            subject: "Remote Sensing",
-            units: 4,
-          },
-          {
-            subject: "Physical Geodesy",
-            units: 2,
-          },
-          {
-            subject: "GE Elective 1",
-            units: 3,
-          },
-          {
-            subject: "Land Registration Laws",
-            units: 3,
-          },
-          {
-            subject: "Property Surveys",
-            units: 5,
-          },
-          {
-            subject: "Special Studies in GE 1",
-            units: 3,
-          },
+          { subject: "Remote Sensing", units: 4 },
+          { subject: "Physical Geodesy", units: 2 },
+          { subject: "GE Elective 1", units: 3 },
+          { subject: "Land Registration Laws", units: 3 },
+          { subject: "Property Surveys", units: 5 },
+          { subject: "Special Studies in GE 1", units: 3 },
         ],
         thirdYearMidYear: [
-          {
-            subject: "Survey Camp (120 hours)",
-            units: 1,
-          },
+          { subject: "Survey Camp (120 hours)", units: 1 },
         ],
         fourthYearFirstSem: [
-          {
-            subject: "GE Elective 2",
-            units: 3,
-          },
-          {
-            subject: "GE Elective 3",
-            units: 3,
-          },
-          {
-            subject: "Land Use Planning and Development",
-            units: 3,
-          },
-          {
-            subject: "Satellite Geodesy",
-            units: 4,
-          },
-          {
-            subject: "Geodetic Surveying",
-            units: 3,
-          },
-          {
-            subject: "GE Laws, Obligations, Contracts & Ethics",
-            units: 2,
-          },
-          {
-            subject: "Engineering Management",
-            units: 3,
-          },
-          {
-            subject: "Special Studies in GE 2",
-            units: 3,
-          },
-          {
-            subject: "Land administration and Management",
-            units: 3,
-          },
+          { subject: "GE Elective 2", units: 3 },
+          { subject: "GE Elective 3", units: 3 },
+          { subject: "Land Use Planning and Development", units: 3 },
+          { subject: "Satellite Geodesy", units: 4 },
+          { subject: "Geodetic Surveying", units: 3 },
+          { subject: "GE Laws, Obligations, Contracts & Ethics", units: 2 },
+          { subject: "Engineering Management", units: 3 },
+          { subject: "Special Studies in GE 2", units: 3 },
+          { subject: "Land administration and Management", units: 3 },
         ],
         fourthYearSecondSem: [
-          {
-            subject: "Geodetic Engineering Immersion/OJT (min of 480 hours)",
-            units: 3,
-          },
+          { subject: "Geodetic Engineering Immersion/OJT (min of 480 hours)", units: 3 },
         ],
       },
-     },
+    },
     {
       program: "Electrical Engineering",
+      curriculum: {
+        firstYearFirstSem: [
+          { subject: "Art Appreciation", units: 3 },
+          { subject: "The Contemporary World", units: 3 },
+          { subject: "Mathematics in the Modern World", units: 3 },
+          { subject: "Introduction to Electrical Engineering 1", units: 2 },
+          { subject: "Chemistry for Engineers", units: 4 },
+          { subject: "Calculus 1", units: 3 },
+          { subject: "Computer-Aided Drafting", units: 1 },
+          { subject: "Movement Enhancement", units: 2 },
+        ],
+        firstYearSecondSem: [
+          { subject: "Purposive Communication", units: 3 },
+          { subject: "Ethics", units: 3 },
+          { subject: "Science, Technology and Society", units: 3 },
+          { subject: "Introduction to Electrical Engineering 2", units: 2 },
+          { subject: "Calculus 2", units: 3 },
+          { subject: "Physics for Engineers", units: 4 },
+          { subject: "Computer Programming for EE", units: 1 },
+          { subject: "Fitness Activity and Exercises", units: 2 },
+        ],
+        secondYearFirstSem: [
+          { subject: "Mathematics of Measurements", units: 3 },
+          { subject: "Engineering Data Analysis", units: 3 },
+          { subject: "Differential Equations", units: 3 },
+          { subject: "Electrical Circuits 1", units: 4 },
+          { subject: "Engineering Mechanics", units: 3 },
+          { subject: "Basic Thermodynamics", units: 2 },
+          { subject: "Panitikan", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 1", units: 2 },
+        ],
+        secondYearSecondSem: [
+          { subject: "Fundamentals of Deformable Bodies", units: 3 },
+          { subject: "Electrical Circuits 2", units: 4 },
+          { subject: "Retorika", units: 3 },
+          { subject: "Electromagnetics for EE", units: 2 },
+          { subject: "Electronic Circuits: Devices and Analysis", units: 4 },
+          { subject: "Engineering Mathematics for EE", units: 3 },
+          { subject: "EE Laws, Codes and Professional Ethics", units: 2 },
+          { subject: "Physical Activity Towards Health and Fitness 2", units: 2 },
+        ],
+        secondYearMidYear: [
+          { subject: "Engineering Economics", units: 3 },
+          { subject: "Electrical Apparatus and Devices", units: 3 },
+          { subject: "Electrical Standards and Practices", units: 1 },
+        ],
+        thirdYearFirstSem: [
+          { subject: "Life and Works of Rizal", units: 3 },
+          { subject: "Understanding the Self", units: 3 },
+          { subject: "Environmental Science and Engineering", units: 3 },
+          { subject: "Gender and Society", units: 3 },
+          { subject: "Logic Circuits and Switching Theory", units: 3 },
+          { subject: "Electrical Machines 1", units: 3 },
+          { subject: "Industrial Electronics", units: 4 },
+          { subject: "Technopreneurship", units: 3 },
+          { subject: "Feedback Control Systems for EE", units: 2 },
+        ],
+        thirdYearSecondSem: [
+          { subject: "Research Methods for EE", units: 1 },
+          { subject: "Microprocessor Systems", units: 3 },
+          { subject: "Electrical Machines 2", units: 4 },
+          { subject: "Power System Analysis 1", units: 4 },
+          { subject: "Electrical Engineering Instrumentation and Control", units: 3 },
+          { subject: "Fundamentals of Electronic Communications", units: 3 },
+          { subject: "Material Science and Engineering", units: 3 },
+          { subject: "Fluid Mechanics", units: 2 },
+        ],
+        thirdYearMidYear: [
+          { subject: "Numerical Methods and Analysis for EE", units: 3 },
+          { subject: "Management of Engineering Project", units: 2 },
+          { subject: "Fundamentals of Power Plant Engineering Design", units: 1 },
+          { subject: "Reading in Philippine History", units: 3 },
+        ],
+        fourthYearFirstSem: [
+          { subject: "Basic Occupational Safety and Health", units: 3 },
+          { subject: "EE Thesis/Research Project or Capstone Design Project", units: 2 },
+          { subject: "Electrical Systems and Illumination Engineering Design", units: 5 },
+          { subject: "Power System Analysis 2 (Distribution Systems and Substation Design)", units: 3 },
+          { subject: "EE Technical Elective 1", units: 3 },
+          { subject: "EE Technical Elective 2", units: 3 },
+          { subject: "EE Technical Elective 3", units: 3 },
+        ],
+        fourthYearSecondSem: [
+          { subject: "On the Job Training", units: 3 },
+          { subject: "Seminars / Colloquia", units: 1 },
+        ],
+      },
     },
-    { program: "Electronics Engineering" },
+    {
+      program: "Electronics Engineering",
+      curriculum: {
+        firstYearFirstSem: [
+          { subject: "Calculus 1", units: 3 },
+          { subject: "Chemistry for Engineers", units: 4 },
+          { subject: "Computer Programming", units: 2 },
+          { subject: "Computer-Aided Drafting", units: 1 },
+          { subject: "Panitikan", units: 3 },
+          { subject: "Mathematics in the Modern World", units: 3 },
+          { subject: "Ethics", units: 3 },
+          { subject: "Movement Enhancement", units: 2 },
+        ],
+        firstYearSecondSem: [
+          { subject: "Introduction to Electronics Engineering", units: 2 },
+          { subject: "Engineering Data Analysis", units: 3},
+          { subject: "Calculus 2", units: 3 },
+          { subject: "Physics for Engineers (Calculus based)", units: 4 },
+          { subject: "Physics 2", units: 4 },
+          { subject: "Retorika", units: 3 },
+          { subject: "Fitness Activity and Exercises", units: 2 },
+        ],
+        secondYearFirstSem: [
+          { subject: "Electronics 1 (Electronic Devices & Circuits)", units: 4 },
+          { subject: "Electrical Circuits 1", units: 4 },
+          { subject: "ECE Laws, Contract, Ethics, Standards & Safety", units: 3 },
+          { subject: "Engineering Economics", units: 3 },
+          { subject: "Material Science & Engineering", units: 3 },
+          { subject: "Differential Equations", units: 3 },
+          { subject: "Mathematics of Measurement", units: 3 },
+          { subject: "Art Appreciation", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 1", units: 2 },
+        ],
+        secondYearSecondSem: [
+          { subject: "Electronics 2 (Electronic Circuit Analysis & Design)", units: 4 },
+          { subject: "Communications 1 (Principles of Communications)", units: 4 },
+          { subject: "Advanced Engineering Mathematics for ECE", units: 4 },
+          { subject: "Electrical Circuits 2", units: 4 },
+          { subject: "Purposive Communication", units: 3 },
+          { subject: "Physical Activity Towards Health and Fitness 2", units: 2 },
+          { subject: "Electromagnetics for ECE", units: 4 },
+        ],
+        secondYearMidYear: [
+          { subject: "Signals, Spectra & Signal Processing", units: 4 },
+          { subject: "Life and Works of Rizal", units: 3 },
+        ],
+        thirdYearFirstSem: [
+          { subject: "Electronics 3 (Electronic Systems & Design)", units: 4 },
+          { subject: "Communications 2 (Modulation and Coding Techniques)", units: 4},
+          { subject: "Readings in Philippine History", units: 3 },
+          { subject: "Numerical Methods (Computer Methods in ECE)", units: 3 },
+          { subject: "Digital Electronics 1: Logic Circuits & Switching Theory", units: 4 },
+          { subject: "Engineering Management", units: 3 },
+          { subject: "Methods of Research", units: 3 },
+        ],
+        thirdYearSecondSem: [
+          { subject: "Communications 3 (Data Communications)", units: 4 },
+          { subject: "Communications 4 (Transmission Media, Antenna System and Design)", units: 4.},
+          { subject: "Digital Electronics 2: Microprocessor & Microcontroller Systems", units: 4 },
+          { subject: "Feedback & Control Systems", units: 4 },
+          { subject: "DESIGN 1 (CAPSTONE PROJECT 1)", units: 1 },
+          { subject: "ECE TECHNICAL ELECTIVE 1", units: 4 },
+        ],
+        thirdYearSummer: [
+          { subject: "The Contemporary World", units: 3 },
+          { subject: "Understanding the Self", units: 3 },
+          { subject: "Wire and Wireless Communications", units: 3 },
+        ],
+        fourthYearFirstSem: [
+          { subject: "Gender and Society", units: 3 },
+          { subject: "Science, Technology and Society", units: 3 },
+          { subject: "Environmental Science & Eng'ng", units: 3 },
+          { subject: "Emerging Foreign Languages", units: 3 },
+          { subject: "DESIGN 2 (CAPSTONE PROJECT 2)", units: 3 },
+          { subject: "SEMINARS/COLLOQUIA", units: 4 },
+          { subject: "TECHNOPRENEURSHIP 101", units: 3 },
+          { subject: "COMMUNICATIONS SYSTEM ANALYSIS", units: 4 },
+          { subject: "ECE TECHNICAL ELECTIVE 2", units: 3 },
+        ],
+        fourthYearSecondSem: [
+          { subject: "SEMINARS/COLLOQUIA", units: 1 },
+          { subject: "ON THE JOB TRAINING", units: 3 },
+        ],
+      },
+    },
   ],
 }

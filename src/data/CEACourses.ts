@@ -605,7 +605,7 @@ export const CEACourses = {
           { subject: "DESIGN 1 (CAPSTONE PROJECT 1)", units: 1 },
           { subject: "ECE TECHNICAL ELECTIVE 1", units: 4 },
         ],
-        thirdYearSummer: [
+        thirdYearMidYear: [
           { subject: "The Contemporary World", units: 3 },
           { subject: "Understanding the Self", units: 3 },
           { subject: "Wire and Wireless Communications", units: 3 },

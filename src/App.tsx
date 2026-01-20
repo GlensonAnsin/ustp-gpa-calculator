@@ -4,6 +4,7 @@ import { CSMCourses } from './data/CSMCourses';
 import { CSTECourses } from './data/CSTECourses';
 import { COTCourses } from './data/COTCourses';
 import { useCourseStore } from './stores/useCourseStore';
+import { NavLink } from 'react-router';
 
 const App = () => {
   const selectedCollege = useCourseStore((state) => state.setCollege);
@@ -19,17 +20,17 @@ const App = () => {
         <h3 className="text-center text-2xl mb-10 text-[#333] font-bold">{CEACourses.college}</h3>
         <div className="grid grid-cols-2 gap-4 px-[10%]">
           {CEACourses.programs.map((item, index) => (
-            <a
+            <NavLink
               key={index}
               className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
               onClick={() => {
                 selectedCollege('CEA');
                 selectedCourse(item.program);
               }}
-              href="./pages/select-sem.tsx"
+              to="/select-sem"
             >
               <p>{item.program}</p>
-            </a>
+            </NavLink>
           ))}
         </div>
       </section>
@@ -38,17 +39,17 @@ const App = () => {
         <h3 className="text-center text-2xl mb-10 text-[#333] font-bold">{CITCCourses.college}</h3>
         <div className="grid grid-cols-2 gap-4 px-[10%]">
           {CITCCourses.programs.map((item, index) => (
-            <a
+            <NavLink
               key={index}
               className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] hover:text-[#FCB316] transition ease-in-out"
               onClick={() => {
                 selectedCollege('CITC');
                 selectedCourse(item.program);
               }}
-              href="./pages/select-sem.tsx"
+              to="/select-sem"
             >
               <p>{item.program}</p>
-            </a>
+            </NavLink>
           ))}
         </div>
       </section>
@@ -57,17 +58,17 @@ const App = () => {
         <h3 className="text-center text-2xl mb-10 text-[#333] font-bold">{CSMCourses.college}</h3>
         <div className="grid grid-cols-2 gap-4 px-[10%]">
           {CSMCourses.programs.map((item, index) => (
-            <a
+            <NavLink
               key={index}
               className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
               onClick={() => {
                 selectedCollege('CSM');
                 selectedCourse(item.program);
               }}
-              href="./pages/select-sem.tsx"
+              to="/select-sem"
             >
               <p>{item.program}</p>
-            </a>
+            </NavLink>
           ))}
         </div>
       </section>
@@ -76,17 +77,17 @@ const App = () => {
         <h3 className="text-center text-2xl mb-10 text-[#333] font-bold">{CSTECourses.college}</h3>
         <div className="grid grid-cols-2 gap-4 px-[10%]">
           {CSTECourses.programs.map((item, index) => (
-            <a
+            <NavLink
               key={index}
               className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
               onClick={() => {
                 selectedCollege('CSTE');
                 selectedCourse(item.program);
               }}
-              href="./pages/select-sem.tsx"
+              to="/select-sem"
             >
               <p>{item.program}</p>
-            </a>
+            </NavLink>
           ))}
         </div>
       </section>
@@ -95,17 +96,17 @@ const App = () => {
         <h3 className="text-center text-2xl mb-10 text-[#333] font-bold">{COTCourses.college}</h3>
         <div className="grid grid-cols-2 gap-4 px-[10%]">
           {COTCourses.programs.map((item, index) => (
-            <a
+            <NavLink
               key={index}
               className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
               onClick={() => {
                 selectedCollege('COT');
                 selectedCourse(item.program);
               }}
-              href="./pages/select-sem.tsx"
+              to="/select-sem"
             >
               <p>{item.program}</p>
-            </a>
+            </NavLink>
           ))}
         </div>
       </section>

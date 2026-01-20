@@ -8,6 +8,7 @@ import { useSemStore } from '../stores/useSemStore';
 import { useMemo } from 'react';
 import { formatSemLabel } from '../utils/formatSemLabel';
 import { formatCollege } from '../utils/formatCollege';
+import { NavLink } from 'react-router';
 
 const COLLEGE_DATA_MAP = {
   CEA: CEACourses,
@@ -38,16 +39,16 @@ const SelectSem = () => {
 
       <div className="grid grid-cols-2 gap-4 px-[10%]">
         {Object.entries(selectedProgramData.curriculum).map(([item, index]) => (
-          <a
+          <NavLink
             key={index}
             className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
             onClick={() => {
               selectedSem(item);
             }}
-            href="./calculate-gpa.tsx"
+            to="/calculate-gpa"
           >
             <p>{formatSemLabel(item)}</p>
-          </a>
+          </NavLink>
         ))}
       </div>
     </section>

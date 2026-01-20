@@ -26,7 +26,7 @@ const App = () => {
                 selectedCollege('CEA');
                 selectedCourse(item.program);
               }}
-              href="/select-sem"
+              href="./pages/select-sem.tsx"
             >
               <p>{item.program}</p>
             </a>
@@ -45,7 +45,7 @@ const App = () => {
                 selectedCollege('CITC');
                 selectedCourse(item.program);
               }}
-              href="/select-sem"
+              href="./pages/select-sem.tsx"
             >
               <p>{item.program}</p>
             </a>
@@ -64,7 +64,7 @@ const App = () => {
                 selectedCollege('CSM');
                 selectedCourse(item.program);
               }}
-              href="/select-sem"
+              href="./pages/select-sem.tsx"
             >
               <p>{item.program}</p>
             </a>
@@ -83,7 +83,7 @@ const App = () => {
                 selectedCollege('CSTE');
                 selectedCourse(item.program);
               }}
-              href="/select-sem"
+              href="./pages/select-sem.tsx"
             >
               <p>{item.program}</p>
             </a>
@@ -102,7 +102,7 @@ const App = () => {
                 selectedCollege('COT');
                 selectedCourse(item.program);
               }}
-              href="/select-sem"
+              href="./pages/select-sem.tsx"
             >
               <p>{item.program}</p>
             </a>

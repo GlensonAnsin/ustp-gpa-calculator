@@ -44,7 +44,7 @@ const SelectSem = () => {
             onClick={() => {
               selectedSem(item);
             }}
-            href="/calculate-gpa"
+            href="./calculate-gpa.tsx"
           >
             <p>{formatSemLabel(item)}</p>
           </a>

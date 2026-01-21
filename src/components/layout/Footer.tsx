@@ -3,7 +3,7 @@ import { faGhost } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal footer-center text-lg p-4 bg-[#16163f]">
+    <footer className="footer sm:footer-horizontal footer-center text-lg p-4 bg-[#16163f] z-100">
       <aside>
         <p className="text-white text-center text-base">
           © {new Date().getFullYear()} USTP GPA Calculator. All rights reserved.

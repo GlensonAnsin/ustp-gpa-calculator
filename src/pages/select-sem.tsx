@@ -9,6 +9,8 @@ import { useMemo } from 'react';
 import { formatSemLabel } from '../utils/formatSemLabel';
 import { formatCollege } from '../utils/formatCollege';
 import { NavLink } from 'react-router';
+import { NavBack } from '../components/ui/back-button';
+import { CollegeLogo } from '../components/ui/colleges-logo';
 
 const COLLEGE_DATA_MAP = {
   CEA: CEACourses,
@@ -32,24 +34,28 @@ const SelectSem = () => {
 
   return (
     <section>
-      <div>
-        <h2 className="text-center text-3xl font-bold text-[#16163f] pt-10 mb-10">{formatCollege(college ?? '')}</h2>
-        <h3 className="text-center text-2xl font-bold text-[#333] mb-10">{course}</h3>
-      </div>
+      <NavBack />
+      <div className="mx-[10%]">
+        <div>
+          <CollegeLogo college={college ?? ''} width={200} height={200} />
+          <h2 className="text-center text-3xl font-bold text-[#16163f] mb-5">{formatCollege(college ?? '')}</h2>
+          <h3 className="text-center text-2xl font-bold text-[#333] mb-5">{course}</h3>
+        </div>
 
-      <div className="grid grid-cols-2 gap-4 px-[10%]">
-        {Object.entries(selectedProgramData.curriculum).map(([item, index]) => (
-          <NavLink
-            key={index}
-            className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
-            onClick={() => {
-              selectedSem(item);
-            }}
-            to="/calculate-gpa"
-          >
-            <p>{formatSemLabel(item)}</p>
-          </NavLink>
-        ))}
+        <div className="grid grid-cols-2 gap-4 px-[10%]">
+          {Object.entries(selectedProgramData.curriculum).map(([item, index]) => (
+            <NavLink
+              key={index}
+              className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
+              onClick={() => {
+                selectedSem(item);
+              }}
+              to="/calculate-gpa"
+            >
+              <p>{formatSemLabel(item)}</p>
+            </NavLink>
+          ))}
+        </div>
       </div>
     </section>
   );

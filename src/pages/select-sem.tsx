@@ -42,7 +42,7 @@ const SelectSem = () => {
           <h3 className="text-center text-2xl font-bold text-[#333] mb-5">{course}</h3>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 px-[10%]">
+        <div className="grid grid-cols-2 gap-4 px-[10%] mb-5">
           {Object.entries(selectedProgramData.curriculum).map(([item, index]) => (
             <NavLink
               key={index}

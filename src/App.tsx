@@ -7,115 +7,74 @@ import { useCourseStore } from './stores/useCourseStore';
 import { NavLink } from 'react-router';
 import { CollegeLogo } from './components/ui/colleges-logo';
 
-const App = () => {
-  const selectedCollege = useCourseStore((state) => state.setCollege);
-  const selectedCourse = useCourseStore((state) => state.setCourse);
+const COLLEGES = [
+  { id: 'CEA', data: CEACourses, hasBg: true },
+  { id: 'CITC', data: CITCCourses, hasBg: false },
+  { id: 'CSM', data: CSMCourses, hasBg: true },
+  { id: 'CSTE', data: CSTECourses, hasBg: false },
+  { id: 'COT', data: COTCourses, hasBg: true },
+];
 
+const CollegeSection = ({
+  id,
+  data,
+  hasBg,
+  onSelect,
+}: {
+  id: string;
+  data: (typeof COLLEGES)[number]['data'];
+  hasBg: boolean;
+  onSelect: (code: string, program: string) => void;
+}) => {
   return (
-    <div>
-      <div>
-        <h2 className="text-center text-3xl font-bold text-[#16163f] p-10">Choose your course</h2>
+    <section id={id} className={`mb-10 py-8 ${hasBg ? 'bg-[#FCB316]/80' : ''}`}>
+      <div className="flex flex-col items-center justify-center mb-5">
+        <div className="mb-4">
+          <CollegeLogo college={id} width={200} height={200} />
+        </div>
+        <h3 className="text-center text-2xl md:text-3xl text-[#333] font-bold px-4">{data.college}</h3>
       </div>
 
-      <section id="cea" className="mb-10 bg-[#FCB316]/80 py-[2%]">
-        <CollegeLogo college="CEA" width={200} height={200} />
-        <h3 className="text-center text-2xl mb-5 text-[#333] font-bold">{CEACourses.college}</h3>
-        <div className="grid grid-cols-2 gap-4 px-[10%]">
-          {CEACourses.programs.map((item, index) => (
-            <NavLink
-              key={index}
-              className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
-              onClick={() => {
-                selectedCollege('CEA');
-                selectedCourse(item.program);
-              }}
-              to="/select-sem"
-            >
-              <p>{item.program}</p>
-            </NavLink>
-          ))}
-        </div>
-      </section>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-[10%]">
+        {data.programs.map((item, index) => (
+          <NavLink
+            key={index}
+            className="bg-[#16163f] text-white p-4 rounded-md flex items-center justify-center text-center cursor-pointer hover:scale-105 hover:text-[#FCB316] transition-all duration-300 shadow-md"
+            onClick={() => onSelect(data.college.split(' ')[0], item.program)}
+            to="/select-sem"
+          >
+            <p className="text-sm md:text-base">{item.program}</p>
+          </NavLink>
+        ))}
+      </div>
+    </section>
+  );
+};
 
-      <section id="citc" className="mb-10">
-        <CollegeLogo college="CITC" width={200} height={200} />
-        <h3 className="text-center text-2xl mb-5 text-[#333] font-bold">{CITCCourses.college}</h3>
-        <div className="grid grid-cols-2 gap-4 px-[10%]">
-          {CITCCourses.programs.map((item, index) => (
-            <NavLink
-              key={index}
-              className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] hover:text-[#FCB316] transition ease-in-out"
-              onClick={() => {
-                selectedCollege('CITC');
-                selectedCourse(item.program);
-              }}
-              to="/select-sem"
-            >
-              <p>{item.program}</p>
-            </NavLink>
-          ))}
-        </div>
-      </section>
+const App = () => {
+  const setCollege = useCourseStore((state) => state.setCollege);
+  const setCourse = useCourseStore((state) => state.setCourse);
 
-      <section id="csm" className="mb-10 bg-[#FCB316]/80 py-[2%]">
-        <CollegeLogo college="CSM" width={200} height={200} />
-        <h3 className="text-center text-2xl mb-5 text-[#333] font-bold">{CSMCourses.college}</h3>
-        <div className="grid grid-cols-2 gap-4 px-[10%]">
-          {CSMCourses.programs.map((item, index) => (
-            <NavLink
-              key={index}
-              className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
-              onClick={() => {
-                selectedCollege('CSM');
-                selectedCourse(item.program);
-              }}
-              to="/select-sem"
-            >
-              <p>{item.program}</p>
-            </NavLink>
-          ))}
-        </div>
-      </section>
+  const handleSelection = (collegeName: string, programName: string) => {
+    setCollege(collegeName);
+    setCourse(programName);
+  };
 
-      <section id="cste" className="mb-10">
-        <CollegeLogo college="CSTE" width={200} height={200} />
-        <h3 className="text-center text-2xl mb-5 text-[#333] font-bold">{CSTECourses.college}</h3>
-        <div className="grid grid-cols-2 gap-4 px-[10%]">
-          {CSTECourses.programs.map((item, index) => (
-            <NavLink
-              key={index}
-              className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
-              onClick={() => {
-                selectedCollege('CSTE');
-                selectedCourse(item.program);
-              }}
-              to="/select-sem"
-            >
-              <p>{item.program}</p>
-            </NavLink>
-          ))}
-        </div>
-      </section>
+  return (
+    <div className="min-h-screen pb-20">
+      <div>
+        <h2 className="text-center text-2xl md:text-4xl font-bold text-[#16163f] py-10 px-4">Choose your course</h2>
+      </div>
 
-      <section id="cot" className="bg-[#FCB316]/80 py-[2%]">
-        <CollegeLogo college="COT" width={200} height={200} />
-        <h3 className="text-center text-2xl mb-5 text-[#333] font-bold">{COTCourses.college}</h3>
-        <div className="grid grid-cols-2 gap-4 px-[10%]">
-          {COTCourses.programs.map((item, index) => (
-            <NavLink
-              key={index}
-              className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
-              onClick={() => {
-                selectedCollege('COT');
-                selectedCourse(item.program);
-              }}
-              to="/select-sem"
-            >
-              <p>{item.program}</p>
-            </NavLink>
-          ))}
-        </div>
-      </section>
+      {COLLEGES.map((college) => (
+        <CollegeSection
+          key={college.id}
+          id={college.id}
+          data={college.data}
+          hasBg={college.hasBg}
+          onSelect={(_code, program) => handleSelection(college.id.toUpperCase(), program)}
+        />
+      ))}
     </div>
   );
 };

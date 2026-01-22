@@ -30,29 +30,32 @@ const SelectSem = () => {
     return collegeData.programs.find((p) => p.program === course);
   }, [college, course]);
 
-  if (!selectedProgramData) return <div>No data found for this course.</div>;
+  if (!selectedProgramData) return <div className="text-center p-10">No data found for this course.</div>;
 
   return (
-    <section>
+    <section className="min-h-screen pb-10">
       <NavBack />
-      <div className="mx-[10%]">
-        <div>
-          <CollegeLogo college={college ?? ''} width={200} height={200} />
-          <h2 className="text-center text-3xl font-bold text-[#16163f] mb-5">{formatCollege(college ?? '')}</h2>
-          <h3 className="text-center text-2xl font-bold text-[#333] mb-5">{course}</h3>
+      <div className="px-4 md:px-[10%] pt-4">
+        <div className="flex flex-col items-center justify-center mb-8">
+          <div className="mb-4">
+            <CollegeLogo college={college ?? ''} width={200} height={200} />
+          </div>
+
+          <h2 className="text-center text-xl md:text-3xl font-bold text-[#16163f] mb-2 px-2">
+            {formatCollege(college ?? '')}
+          </h2>
+          <h3 className="text-center text-lg md:text-2xl font-bold text-[#333] px-2">{course}</h3>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 px-[10%] mb-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-10">
           {Object.entries(selectedProgramData.curriculum).map(([item, index]) => (
             <NavLink
               key={index}
-              className="bg-[#16163f] text-white p-3 rounded-md flex items-center justify-center cursor-pointer hover:scale-101 hover:text-[#FCB316] transition ease-in-out"
-              onClick={() => {
-                selectedSem(item);
-              }}
+              className="bg-[#16163f] text-white p-4 rounded-md flex items-center justify-center text-center cursor-pointer hover:scale-[1.02] hover:text-[#FCB316] transition-all duration-300 shadow-md"
+              onClick={() => selectedSem(item)}
               to="/calculate-gpa"
             >
-              <p>{formatSemLabel(item)}</p>
+              <p className="text-sm md:text-base">{formatSemLabel(item)}</p>
             </NavLink>
           ))}
         </div>
